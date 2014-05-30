@@ -45,11 +45,11 @@ app/
 
 ### But wait a second…
 
-*This engine never defines a default `Ember.TEMPLATES` object like the JST engine does!*
+#### This engine never defines a default `Ember.TEMPLATES` object like the JST engine does!
 
 Not to fear, Ember handles defining `Ember.TEMPLATES` as an empty object. Make sure that your templates aren't instantiated before Ember and you'll be A-OK.
 
-*What if I want to use JST templates at the same time?*
+#### What if I want to use JST templates at the same time?
 
 At this time, the only way to achieve that would be to register this engine under a different file extension, leaving the default `.hbs` engine intact.
 
