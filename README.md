@@ -1,6 +1,8 @@
-A Mincer engine to for serving Ember-friendly Handlebars templates.
+**A Mincer engine to for serving Ember-friendly Handlebars templates.**
 
-**Note**: this engine **overrides** the built-in Handlebars engine. Furthermore, there is no need to pair your template files with the built-in EJS engine. Naming your files `[my-template].hbs` will do.
+[Mincer](https://github.com/nodeca/mincer) is a badass JavaScript port of Sprockets that makes it super-duper easy to serve dynamically generated assets in your connect or express app. You'll want to be familiar with its use before you try using this package.
+
+Note*: this engine **overrides** the built-in Handlebars engine. Furthermore, there is no need to pair your template files with the built-in EJS engine. Naming your files `[my-template].hbs` will do.
 
 ### How to use this old thing
 
