@@ -2,7 +2,7 @@
 
 [Mincer](https://github.com/nodeca/mincer) is a badass JavaScript port of Sprockets that makes it super-duper easy to serve dynamically generated assets in your connect or express app. You'll want to be familiar with its use before you try using this package.
 
-Note*: this engine **overrides** the built-in Handlebars engine. Furthermore, there is no need to pair your template files with the built-in EJS engine. Naming your files `[my-template].hbs` will do.
+Note*: this engine **overrides** the built-in Handlebars engine. Furthermore, there is no need to pair your template files with the built-in JST engine. Naming your files `[my-template].hbs` will do.
 
 ## How to use this old thing
 
@@ -45,11 +45,11 @@ app/
 
 ### But wait a second…
 
-*This engine never defines a default `Ember.TEMPLATES` object like the JST engine does!*
+#### This engine never defines a default `Ember.TEMPLATES` object like the JST engine does!
 
 Not to fear, Ember handles defining `Ember.TEMPLATES` as an empty object. Make sure that your templates aren't instantiated before Ember and you'll be A-OK.
 
-*What if I want to use JST templates at the same time?*
+#### What if I want to use JST templates at the same time?
 
 At this time, the only way to achieve that would be to register this engine under a different file extension, leaving the default `.hbs` engine intact.
 
