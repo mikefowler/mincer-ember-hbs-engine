@@ -1,10 +1,10 @@
 {
   "name": "mincer-ember-hbs-engine",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An engine for Mincer that compiles Handlebars templates for use with Ember",
   "main": "lib/main.js",
   "author": "Mike Fowler <mike@mikefowler.me>",
-  "keywords": ["mincer", "ember", "handlebars", "hbs"],
+  "keywords": ["mincer", "mincer-contrib", "ember", "handlebars", "hbs"],
   "repository": {
     "type": "git",
     "url": "https://github.com:mikefowler/mincer-ember-hbs-engine.git"
